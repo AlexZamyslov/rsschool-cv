@@ -1,8 +1,44 @@
-Имя и фамилия
-Контакты для связи
-Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
-Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
-Примеры кода
+# Aleksander Zamyslov
+
+## Contact
+telegram: @AlexSir96
+email: zamyslov.job@gmail.com
+
+## Profile
+My name is Aleksander Zamyslov
+I live in Russia, from Krasnodar city
+My target is to become a demanded specialists in IT and live near the sea in my own house or villa
+
+## Software skill
+JAVA
+HTML
+CSS
+JavaScript
+Git, GitHUB
+Agile, Waterfall, SCRUM, Kanban
+
+## Code example
+public class App {
+    public static String encrypt(String str) {
+        // BEGIN
+        var result = "";
+        for (var i = 0; i < str.length(); i += 2) {
+            var nextSymbol = (i + 2 > str.length()) ? "" : str.charAt(i + 1);
+            result = result + nextSymbol + str.charAt(i);
+        }
+
+        return result;
+        
+## Work experience
+2016-2021 - servise man in engineering company - heatproject
+2021-2024 - salese engineer in Germany company - Wilo SE
+
 Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
-Образование (включая пройденные курсы и тренинги)
-Английский язык (уровень английского языка, если была языковая практика, расскажите о ней)
+
+## Education
+KubSAU in Krasnodar - higher education
+Java course: learning for beginners [CodeBasics](https://code-basics.com/ru/languages/java)
+
+## Lenguages
+Russian C1
+English B1
